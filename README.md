@@ -23,4 +23,4 @@ View all releases [here](https://github.com/swiftsanta/SimpleLifesteal/releases)
 **max-health**: Most amount of health a player can have.  
 **increment**: Amount of health players lose/gain upon kill.
 ## Support
-For any bugs or issues or if you want me to change/add something, DM me on Discord @SwiftSanta76.
+For any bugs or issues or if you want me to change/add something, DM me on discord SwiftSanta76.
