@@ -1,0 +1,13 @@
+# SimpleLifesteal config
+
+# Toggle lifesteal on/off.
+lifesteal-enabled: true
+
+# Set the minimum health for lifesteal. Cannot be less than 1 (0.5 hearts).
+min-health: 10
+
+# Set the maximum health for lifesteal. Cannot be more than 100 (50 hearts).
+max-health: 40
+
+# Set the increment for lifesteal. Cannot be more than 10 (5 hearts).
+increment: 2

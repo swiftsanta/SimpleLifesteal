@@ -1,0 +1,31 @@
+name: SimpleLifesteal
+version: '1.0'
+main: me.swiftsanta.simplelifesteal.SimpleLifesteal
+api-version: '1.21'
+authors: [swiftsanta]
+commands:
+  lifesteal:
+    description: Lifesteal admin commands.
+    usage: /<command> [help|reload|reset|set|give|take|get|toggle]
+    aliases: [ls]
+    permission: lifesteal.admin
+    permission-message: You do not have permission to use this command.
+
+  hearts:
+    description: Shows your or another player's hearts.
+    usage: /<command> [player]
+    permission: lifesteal.viewself
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  lifesteal.admin:
+    description: Admin permission for lifesteal.
+    default: op
+
+  lifesteal.viewothers:
+    description: Permission to view others' hearts.
+    default: op
+
+  lifesteal.viewself:
+    description: Permission to view your hearts.
+    default: true
